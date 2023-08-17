@@ -6,11 +6,11 @@ import Image from "next/image"
 import { Container, Header } from '../styles/pages/app';
 globalStyles();
 
-const roboto = Roboto({
-  weight: ['400', '700'],
-  style: ['normal'],
-  subsets: ['latin'],
-});
+// const roboto = Roboto({
+//   weight: ['400', '700'],
+//   style: ['normal'],
+//   subsets: ['latin'],
+// });
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
